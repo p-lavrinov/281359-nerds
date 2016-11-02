@@ -29,6 +29,7 @@
     <main class="container">
       <div class="catalog-left">
         <div class="catalog-left-inside">
+         <form action="show" method="post"
          <div class="catalog-left-inside-name">
           <h2>Стоимость:</h2>
         </div>
@@ -48,25 +49,22 @@
         </div>
       </div>
           <div class="catalog-left-inside-main">
-            <div class="catalog-left-inside-main">
+            <div class="catalog-left-inside-main-name">
               <h2>Сетка:</h2>
             </div>
-            <form action="show" method="post">
-              <input type="radio" name="grid" id="adaptive" value="adaptive" checked>
+               <input type="radio" name="grid" id="adaptive" value="adaptive" checked>
                     <label class="catalog-label" for="adaptive">Адаптивная</label>
                     <input type="radio" name="grid" id="rubber" value="rubber">
                     <label class="catalog-label" for="rubber">Резинования</label>
                     <input type="radio" name="grid" id="fixed" value="fixed" disabled>
                     <label class="catalog-label" for="fixed">Фиксированная</label>
-            </form>
           </div>
         </div>
            <div class="catalog-left-inside-footer">
             <div class="catalog-left-inside-footer-name">
               <h2>Особенности:</h2>
             </div>
-            <form action="show" action="post">
-              <input id="slider" name="slider" type="checkbox" value="slider" checked>
+            <input id="slider" name="slider" type="checkbox" value="slider" checked>
                     <label class="catalog-label" for="slider">Слайдер</label>
                     <input id="advantages" name="advantages" type="checkbox" value="advantages" disabled>
                     <label class="catalog-label" for="advantages">Блок преимуществ</label>
@@ -79,8 +77,7 @@
                     <button type="submit" class="btn filter-btn">Показать</button>
                   </div>
               </form>
-           </div>
-         <div class="catalog-right-inside">
+           <div class="catalog-right-inside">
            <div class="catalog-right-inside-header">
              <div class="catalog-right-inside-header-name">
                <h2>Сортировать:</h2>
@@ -95,25 +92,25 @@
                 <a href="#" class="catalog-arrow-up"></a>
             </div>
            </div>
-           <div class="catalog-right-inside-clients">
-             <div class="clients">
+           <div class="catalog-right-inside-product-card">
+             <div class="product-card">
               <div class="sedonia">
-                <img src="sedonia.png" width="360" height="640">
+                <a href="#"<img src="sedonia.png" width="360" height="640">
              </div>
-             <div class="clients">
-               <img src="pink.png" width="360" height="640">
+             <div class="product-card">
+               <a href="#"<img src="pink.png" width="360" height="640">
              </div>
-             <div class="clients">
-               <img scr="borodinskiy.png" width="360" height="640">
+             <div class="product-card">
+               <a href="#"<img scr="borodinskiy.png" width="360" height="640">
              </div>
-             <div class="clients">
-               <img src="mishka.png" width="360" height="640">
+             <div class="product-card">
+               <a href="#"<img src="mishka.png" width="360" height="640">
              </div>
-             <div class="clients">
-               <img src="a-plus.png" width="360" height="640">
+             <div class="product-card">
+               <a href="#"<img src="a-plus.png" width="360" height="640">
              </div>
-             <div class="clients">
-               <img src="kvast.png" width="360" height="640">
+             <div class="product-card">
+               <<a href="#"img src="kvast.png" width="360" height="640">
              </div>
             </div>
             <div class="paginator">
@@ -123,20 +120,7 @@
                <a href="#">Следующая</a>
             </div>
            </div>
-           <div class="clients">
-             <div class="html academy">
-               <img scr="htmlacademy.png" width="241" height="97" />
-             </div>
-             <div class="borodinskiy">
-               <img src="borodinskiy.png" width="241" height="97" />
-             </div>
-             <div class="pink">
-               <img src="pink.png" width="241" height="97" />
-             </div>
-             <div class="mishka">
-               <img src="mishka" width="241" height="97>"
-             </div>
-           </div>
+           <section class="container">
            <div class="map">
              <img background="map.png">
              < --!в карте не уверен-->
@@ -147,8 +131,9 @@
                <a href="#" class="btn-address">Напишите нам</a>
              </div>
            </div>
+         </section>
            <footer class="footer">
-             <div class="container4">
+             <div class="container">
                <div class="socials">
                 <a href="#" class="social-btn social-btn-vk"></a>
                 <a href="#" class="social-btn social-btn-fb"></a>

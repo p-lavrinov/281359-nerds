@@ -32,14 +32,16 @@
           </div>
       </header>
       <main class="container">
-        <section class="features">
+        <main>
+         <div class="container">
+          <section class="features">
           <div class="section-item">
             <div class="section-item-logo">
               <img src="section-item-web.png" width=120 height="85" alt="Вэб-сайты">
             </div>
-            <h2>Вэб-сайты</h2>
+            <h2 class="section-item-title">Вэб-сайты</h2>
             <p>Мир никогда не будет преждним, после того как увидит ваш сайт</p>
-            <a href="#" class="btn-web">Заказать</a>
+            <a href="#" class="btn-red btn-features">Заказать</a>
          </div>
           <div class="section-item">
             <div class="section-item-logo">
@@ -47,7 +49,7 @@
             </div>
             <h2>Приложения</h2>
             <p>Покорите ТОП-10 приложений в AppStore и GooglePlay</p>
-            <a href="#" class="btn-app">Заказать</a>
+            <a href="#" class="btn-green btn-features">Заказать</a>
          </div>
           <div class="section-item">
             <div class="section-item-logo">
@@ -55,7 +57,7 @@
             </div>
             <h2>Презентации</h2>
             <p>Вы даже не представляете, насколько вы изумительны</p>
-            <a href="#" class="btn-present">Заказать</a>
+            <a href="#" class="btn-yellow btn-features">Заказать</a>
           </div>
        </section>
         <section class ="company-detail">
@@ -64,7 +66,7 @@
             <p>Исповедуем принципы минимализма и чистоты.Ставим математический
               расчет выше креатива. Работаем не покладая рук как роботы</p>
             <p>Выполняем заказы на разработку:</p>
-            <ul>
+            <ul class="list-red-line">
               <li>
                 <p>Вэб-сайтов любой сложности</p>
               </li>
@@ -77,48 +79,50 @@
             </ul>
           </div>
           <div class="company-detail-right">
-            <figure class="company-detail-right-logo">
+            <div class="company-detail-right-logo">
               <img src="company-detail-right-logo.png" width="400" height="220" alt="Нёрдс">
-            </figure>
+            </div>
             <div class="company-detail-right-title">
               <p>C 2004 года любим точность во всем:</p>
             </div>
             <div class="company-detail-feature-left">
-              <figure class="146%">
-               <img src="146%.png" width="100" height="52">
-                </figure>
+              <div class="146%">
+               <div class="numbers">146</div><span class="%">%</span>
+             </div>
               <p>Уровень самооотдачи</p>
             </div>
             <div class="company-detail-feature-middle">
-              <figure class="100%">
-               <img src="100%.png" width="100" height="52">
-                </figure>
+              <div class="100%">
+               <div class="numbers">146</div><span class="%">%</span>
+             </div>
               <p>Соблюдение сроков</p>
             </div>
             <div class="company-detail-feature-right">
-              <figure class="50%">
-               <img src="50%.png" width="100" height="52">
-                </figure>
+              <div class="50%">
+               <div class="numbers">50</div><span class="%">%</span>
+             </div>
               <p>Минимальная предоплата</p>
             </div>
           </div>
         </section>
         <section class="clients">
-          <div class="html academy">
-            <img scr="htmlacademy.png" width="241" height="97" />
+          <div class="clients-item">
+            <img scr="htmlacademy.png" width="241" height="97">
           </div>
-          <div class="borodinskiy">
-            <img src="borodinskiy.png" width="241" height="97" />
+          <div class="clients-logo">
+            <img src="borodinskiy.png" width="241" height="97">
           </div>
-          <div class="pink">
-            <img src="pink.png" width="241" height="97" />
+          <div class="clients-logo">
+            <img src="pink.png" width="241" height="97">
           </div>
-          <div class="mishka">
-            <img src="mishka" width="241" height="97>"
+          <div class="clients-logo">
+            <img src="mishka" width="241" height="97">
           </div>
         </section>
-        <section class="container">
-          <img background="map.png">
+      </div>
+        <section class="map">
+          <div class="container">
+           <img background="map.png">
           < --! С картой абсолютно не уверен в правильности -->
           <div class="address">
             <h3>Nerds Design Studio</h3>
@@ -126,20 +130,44 @@
             <p>тел: +7(812)275-75-75</p>
             <a href="#" class="btn-feedback">Напишите нам</a>
           </div>
+          </div>
         </section>
-        <footer class="footer">
-          <section class="container">
-            <div class="socials">
-             <a href="#" class="social-btn social-btn-vk"></a>
-             <a href="#" class="social-btn social-btn-fb"></a>
-             <a href="#" class="social-btn social-btn-inst"></a>
-            </div>
-            <div class="outro">
-            <h1>Давайте дружить - это выгодно!</h1>
-            <p>Скидка 10% для друзей из социальных сетей</p>
-           </div>
-          </section>
-        </footer>
-     </main>
+      </main>
+     <footer class="footer">
+       <section class="container">
+         <div class="socials">
+    < --! слова для поисковой машины -->
+          <a href="#" class="social-btn social-btn-vk"></a>
+          <a href="#" class="social-btn social-btn-fb"></a>
+          <a href="#" class="social-btn social-btn-inst"></a>
+         </div>
+         <div class="outro">
+         <h2>Давайте дружить - это выгодно!</h2>
+         <p>Скидка 10% для друзей из социальных сетей</p>
+        </div>
+       </section>
+     </footer>
+     <div class="feedback">
+      <form action="feedback" method="post">
+       <div class="feedback-user">
+        <div class="feedback-left-column">
+          <label class="feedback-data" for="feedback-login">Ваше имя:</label>
+          <input type="text" name="login" id="feedback-login" placeholder="Представьтесь, пожалуйста" required>
+       </div>
+        <div class="feedback-right-column">
+          <label class="feedback-data" for="feedback-email">Ваш e-mail:</label>
+        <input type="email" name="email" id="feedback-email" placeholder="Для отправки ответа" required>
+        </div>
+      </div>
+          <label class="feedback-data" for="feedback-textarea">Текст письма:</label>
+          <textarea name="text" id="feedback-textarea" placeholder="В свободной форме" required rows="5"></textarea>
+          <div class="feedback-block">
+            <button type="submit" class="btn feedback-btn">Отправить</button>
+            <a class="btn feedback-cancel" href="#">Омена</a>
+          </div>
+          <a href="#" class="feedback-circle-btn"></a>
+        </form>
+    </div>
+   </main>
    </body>
 </html>

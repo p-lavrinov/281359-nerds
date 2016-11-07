@@ -1,0 +1,11 @@
+body {
+    min-width: 900px; /* Минимальная ширина страницы */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем поля вокруг текста */
+    background-color: white; /* Фон */
+    color: black; /* Цвет букв */
+    font-family: Roboto, Arial, sans-serif; /* Шрифты */
+    font-weight: 500; /* Шрифт жирный */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 22px; /* Интервал */
+}
